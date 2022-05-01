@@ -1,0 +1,19 @@
+[0] Config.pm:311> INFO - This is Biber 2.16
+[0] Config.pm:314> INFO - Logfile is 'Bontempelli_Elia_DII_2021.blg'
+[196] biber-MSWIN64:340> INFO - === 
+[253] Biber.pm:415> INFO - Reading 'Bontempelli_Elia_DII_2021.bcf'
+[420] Biber.pm:952> INFO - Found 4 citekeys in bib section 0
+[442] Biber.pm:4340> INFO - Processing section 0
+[459] Biber.pm:4531> INFO - Looking for bibtex format file 'bibliografia.bib' for section 0
+[540] bibtex.pm:1689> INFO - LaTeX decoding ...
+[554] bibtex.pm:1494> INFO - Found BibTeX data source 'bibliografia.bib'
+[611] Utils.pm:395> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[611] Utils.pm:395> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[611] Utils.pm:395> WARN - BibTeX subsystem: warning: comma(s) at end of name (removing)
+[626] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'normalization = NFD' with 'normalization = prenormalized'
+[626] UCollate.pm:68> INFO - Overriding locale 'it-IT' defaults 'variable = shifted' with 'variable = non-ignorable'
+[626] Biber.pm:4168> INFO - Sorting list 'none/global//global/global' of type 'entry' with template 'none' and locale 'it-IT'
+[626] Biber.pm:4174> INFO - No sort tailoring available for locale 'it-IT'
+[631] bbl.pm:654> INFO - Writing 'Bontempelli_Elia_DII_2021.bbl' with encoding 'UTF-8'
+[635] bbl.pm:757> INFO - Output to Bontempelli_Elia_DII_2021.bbl
+[636] Biber.pm:128> INFO - WARNINGS: 3

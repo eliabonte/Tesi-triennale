@@ -1,0 +1,63 @@
+\documentclass[epsfig, a4paper,11pt,titlepage,openright]{book}
+\usepackage[utf8]{inputenc}
+\usepackage[italian]{babel}
+\usepackage{amsmath}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{ragged2e}
+\usepackage{graphicx}
+\usepackage{epsfig}
+\usepackage{plain}
+\usepackage{setspace}
+\usepackage[paperheight=29.7cm,right=2.5cm,left=3.5cm,top=2cm,bottom=2cm]{geometry} % per definizione layout
+\usepackage{titlesec} % per formato custom dei titoli dei capitoli
+\usepackage{float}
+
+\usepackage[backend=biber,style=numeric,citestyle=authortitle, sorting=none]{biblatex}
+\addbibresource{bibliografia.bib}
+
+\linespread{1.25}
+
+\begin{document}
+	
+	\frontmatter
+	
+	% nessuna numerazione
+	
+	\input{pagina_iniziale}
+	
+	\clearpage
+	
+	\input{ringraziamenti}
+	
+		
+	
+	\clearpage
+	\pagestyle{plain} % nessuna intestazione e pie pagina con numero al centro
+	
+	\input{sommario}
+	
+	\mainmatter
+
+    % indice
+    \tableofcontents
+
+
+	\input{capitolo1}
+	\input{capitolo2}
+	\input{capitolo3}
+	%\input{capitolo4}
+     
+    \backmatter
+    
+    
+    
+    
+
+    \nocite{book1}
+    \nocite{BO} 
+    \addcontentsline{toc}{chapter}{Bibliografia e sitografia}
+    \printbibliography[title = Bibliografia e sitografia]
+    
+
+\end{document}
