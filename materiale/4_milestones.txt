@@ -1,0 +1,19 @@
+Analisi, in simulazione, di prestazioni di comfort di diverse strategie di controllo di sospensione semi-attiva, 
+con taratura dei parametri fatta con un algoritmo di ottimizzazione globale data-driven
+
+
+1.  Imparare ad utilizzare Matlab e Simulink
+
+2. Familiarizzare con il modello e gli strumenti di analisi delle simulazioni
+	- Implementare in Simulink il modello quarter car del veicolo (includendo il modello di sospensione magnetoreologica)
+	- Imparare ad analizzare i dati di una simulazione, calcolando l'indice di performance e la funzione di trasferimento sperimentale
+	- Validare tutto con dei controesempi per essere certi di avere fatto tutto correttamente. 
+		- La cosa più semplice è il confronto con il modello lineare (u_mr = 0), che si può simulare molto facilmente come un sistema dinamico lineare.
+		  Si può validare la simulazione nel tempo (devono essere uguali) e anche la stima della funzione di trasferimento, che per il modello lineare si può calcolare partendo dalle matrici A,B,C,D del sistema.
+		- Per "validare" le simulazione nonlineari (u_mr non zero) si può fare un grafico della forza della sospensione in funzione della velocità di stroke e verificare che coincida con le mappe attese.
+
+3. Familiarizzare con l'ottimizzazione Bayesiana. Un modo semplice può essere quello di ottimizzare il valore costante di u_mr che massimizza il comfort. 
+	- Si può facilmente verificare che il risultato ottenuto deve avvicinarsi all'ottimo, che si può trovare per "forza bruta" facendo tante simulazioni
+	- Si può familiarizzare con il comportamento della BO, in particolare capire l'effetto dei vari parametri sul risultato.
+
+4. Affrontare il vero e proprio argomento della tesi, andando ad ottimizzare con BO i parametri di diverse strategie di controllo e confrontandone i risultati.
