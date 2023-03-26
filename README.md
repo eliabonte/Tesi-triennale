@@ -1,4 +1,4 @@
-# "Analisi di prestazioni di comfort di diverse strategie di controllo di sospensione semi-attiva"
+# Analisi di prestazioni di comfort di diverse strategie di controllo di sospensione semi-attiva
 
 # Sommario
 Le sospensioni sono una delle parti fondamentali di un veicolo, costituiscono il collegamento principale tra la strada e il telaio e sono responsabili della sicurezza e del comfort del passeggero a bordo.
