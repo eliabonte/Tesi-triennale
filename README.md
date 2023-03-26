@@ -1,6 +1,6 @@
-#"Analisi di prestazioni di comfort di diverse strategie di controllo di sospensione semi-attiva"
+# "Analisi di prestazioni di comfort di diverse strategie di controllo di sospensione semi-attiva"
 
-#Sommario
+# Sommario
 Le sospensioni sono una delle parti fondamentali di un veicolo, costituiscono il collegamento principale tra la strada e il telaio e sono responsabili della sicurezza e del comfort del passeggero a bordo.
 In questo lavoro sono state analizzate, tramite simulazioni su un modello quarter car, le prestazioni di comfort di diverse strategie di controllo per le sospensioni semi-attive di tipo magnetoreologico.
 La taratura dei parametri delle leggi di controllo è stata fatta tramite l’algoritmo di ottimizzazione bayesiana.
